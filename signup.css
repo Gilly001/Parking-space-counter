@@ -1,0 +1,28 @@
+body{
+    background-image: url(Dark-03.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: absolute;
+    width: 320px;
+    height: 500px;
+    background: rgba(104, 83, 32, 0.5);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.signup{
+    background-color:white;
+    cursor: pointer;
+}
+.signup:hover{
+    background-color: rgb(2, 84, 136);
+}
+.radio-inline{
+    cursor: pointer;
+}

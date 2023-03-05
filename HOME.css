@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(Dark-03.png);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: top;
+    background-blend-mode:darken;
+}
+.menuBar{
+    background: rgb(3, 104, 186);
+    text-align: right;
+}
+.menuBar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white ;
+}
+.menuBar ul li{
+    width: 120 px;
+    margin: 15px;
+    padding: 15px;
+}
+.menuBar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menuBar ul li:hover{
+    background-color: rgb(131, 80, 4);
+}

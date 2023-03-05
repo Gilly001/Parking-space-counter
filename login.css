@@ -1,0 +1,31 @@
+body{
+    background-image: url(Dark-03.png);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: top;
+    background-blend-mode:darken;
+}
+.container{
+    position: absolute;
+    width: 320px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+form{
+    text-align: center;
+    color: white;
+}
+form a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(142, 109, 24);
+}
